@@ -1,0 +1,122 @@
+/*top-site*/
+@media (max-width:991px) {
+    .top-site .wrapper{
+        background:url("/Img/background-top-mobile.svg") no-repeat center/cover, white;
+        height: 840px;
+    }
+    
+}
+
+
+/*header*/
+@media (max-width:991px) {
+    header{
+        padding:20px;
+        box-shadow: 0px 4px 4px #12214D;
+    }
+    header > div{
+        width: 100%;
+    }
+}
+
+
+/*intro*/
+@media (max-width:1460px) {
+    .intro > .right-side{
+        width: 100%;
+        max-width:600px;
+        margin-top:80px;
+    }   
+}
+@media (max-width:1200px) {
+    .intro > .right-side{
+        max-width:450px;
+    }   
+}
+@media (max-width:991px) {
+    .intro > .right-side{
+        position: static;
+        max-width:335px;
+        margin:30px auto;
+    }  
+    .selected-item-intro{
+        transform: translate(-60px, -40px);
+        width: 150px;
+        height: 100px;
+        border-radius:15px;
+    }
+    .intro .box{
+        margin-top:90px;
+        padding:9.23px 11.32px;
+    }
+    .intro .container{
+        max-width:550px !important;
+    }
+    .intro > .container > *{
+        margin:0 auto;
+    }
+    .intro p{/*not changed*/
+        margin:15px auto 50px auto !important;
+    }
+    .intro a{
+        padding:15.5px 128.5px;
+    }
+}
+@media (max-width:884px) {
+    .intro .container{
+        margin:0 auto;
+    }
+    .intro .box{
+        margin-top:0px;
+    }
+}
+@media (max-width:575px) {
+    .intro h1{
+        font-size: 31px;
+        line-height: 120%;
+    }
+    .selected-item-intro{
+        transform: translate(-30px, -20px);
+        width: 150px;
+        height: 100px;
+        border-radius:15px;
+    }
+}
+
+
+
+
+
+
+
+/*features*/
+@media(max-width:807px){
+    .features > div > div{
+        display:flex;
+        gap:25px;
+    }
+    .features div div div{
+        text-align: left;
+        max-width:246px;
+    }
+    .features > h2,
+    .features > p{
+        text-align: left;
+        max-width:400px;
+        margin:0 auto;
+    }
+    .features > p{
+        margin:20px auto 40px auto;
+    }
+}
+
+
+
+/*main*/
+@media (max-width:1174px) {
+    main > div{
+        justify-content: center;
+        margin-bottom:60px;
+    }
+    
+}

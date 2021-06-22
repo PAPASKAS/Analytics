@@ -1,0 +1,111 @@
+*{
+    text-decoration:none !important;
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(/Fonts/roboto-bold.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(/Fonts/roboto-regular.ttf);
+}
+:root{
+    --red:#EF2A82;
+    --dark-blue:#172755;
+    --blue:#0088F0;
+    --chart-lines:#EEEEF7;
+    --secondary:#8794BA;
+    --main:#172755;
+    --gray:#C4C4C4;
+    --shadow:0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+}
+
+
+
+/*header*/
+header nav a{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--secondary) !important;
+}
+.menu_header a{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 25px;
+    color: white !important;
+}
+header .sign-in,
+header .sign-up{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--secondary);
+}
+
+
+/*intro*/
+.intro h1{
+    font-family: Roboto-bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.intro p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--secondary);
+}
+.intro a{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;    
+}
+
+
+/*features*/
+.features h2{
+    font-family: Roboto-bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--main);    
+}
+.features > P{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--secondary);
+}
+.features div h6{
+    font-family: Roboto-bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main);    
+}
+.features div p{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--secondary);    
+}
+
+
+
+
+/*main*/
+main .text h2{
+    font-family: Roboto-bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: var(--main);
+}
+main .text p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--secondary);
+}
