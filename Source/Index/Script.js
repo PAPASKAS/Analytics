@@ -33,3 +33,46 @@ function introSelected(item){
     selectedIntro = item;
     selectedIntro.classList.add('selected-item-intro');
 };
+
+
+
+//footer
+let selectedFooter;
+box_footer.onmouseover = function(event){
+    let item = event.target.closest('.sentence');
+    if(!item) return;
+    if(!box_footer.contains(item)) return;
+
+    footerSelected(item);
+};
+function footerSelected(item){
+    if(selectedFooter){
+        selectedFooter.querySelector(".heading").style.color = "#FFFFFF";
+        selectedFooter.querySelector(".price").style.color = "#FFFFFF";
+        selectedFooter.querySelector(".background").classList.remove("background-selected");
+        selectedFooter.querySelector("a").classList.remove("a-selected");    
+    }
+
+    selectedFooter = item;
+    selectedFooter.querySelector(".heading").style.color = "var(--main)";
+    selectedFooter.querySelector(".price").style.color = "var(--main)";
+    selectedFooter.querySelector(".background").classList.add("background-selected");
+    selectedFooter.querySelector("a").classList.add("a-selected");
+};
+
+
+
+//mob ver footer
+let mediaQuery = window.matchMedia('(max-width: 1050px)');
+if (mediaQuery.matches) {
+    document.querySelector("footer .swiper-container").classList.add("mySwiper");
+}
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+});

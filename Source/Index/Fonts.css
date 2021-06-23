@@ -27,13 +27,13 @@ header nav a{
     font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
-    color: var(--secondary) !important;
+    color: var(--secondary);
 }
 .menu_header a{
     font-family: Roboto;
     font-size: 16px;
     line-height: 25px;
-    color: white !important;
+    color: white;
 }
 header .sign-in,
 header .sign-up{
@@ -108,4 +108,64 @@ main .text p{
     font-size: 18px;
     line-height: 150%;
     color: var(--secondary);
+}
+
+
+
+
+
+
+/*footer*/
+footer .container > h2{
+    font-family: Roboto-bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;   
+}
+footer .container > p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--secondary);
+}
+footer .sentence .heading{
+    font-family: Roboto-bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;;
+}
+footer .sentence .up-to{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--secondary);    
+}
+footer .sentence .price{
+    font-family: Roboto-bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;;
+}
+footer .sentence .price::first-letter{
+    font-size: 30px;
+    line-height: 35px;
+}
+footer .sentence .per-month{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--secondary);
+}
+footer .sentence a{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+footer .bottom-side a{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--secondary);    
 }

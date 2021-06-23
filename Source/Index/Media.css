@@ -118,5 +118,14 @@
         justify-content: center;
         margin-bottom:60px;
     }
-    
+}
+
+
+
+
+/*footer*/
+@media(max-width:991px){
+    footer .wrapper{
+        background:url(/Img/background-bottom-mobile.jpg) no-repeat;
+    }
 }
